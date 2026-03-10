@@ -1,0 +1,20 @@
+{
+  "name": "mjml-templates",
+  "version": "1.0.0",
+  "description": "MJML email templates spike",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js",
+    "watch": "node scripts/watch.js",
+    "build:template": "node scripts/build.js --template",
+    "send": "node scripts/send.js"
+  },
+  "dependencies": {
+    "mjml": "^4.18.0",
+    "nodemailer": "^6.9.0"
+  },
+  "devDependencies": {
+    "chokidar": "^3.6.0",
+    "dotenv": "^16.0.0"
+  }
+}

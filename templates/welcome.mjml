@@ -1,0 +1,58 @@
+<mjml>
+  <mj-head>
+    <mj-title>Welcome</mj-title>
+    <mj-preview>Welcome to our platform!</mj-preview>
+    <mj-attributes>
+      <!--
+        Font stack: Arial is missing on many Android devices.
+        Helvetica Neue covers iOS/macOS, Arial covers Windows,
+        the generic sans-serif is the universal fallback.
+      -->
+      <mj-all font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" />
+      <mj-text font-size="16px" line-height="1.5" color="#333333" />
+    </mj-attributes>
+    <mj-include path="../partials/styles/base.mjml" />
+    <mj-include path="../partials/styles/dark-mode.mjml" />
+  </mj-head>
+
+  <mj-body background-color="#f4f4f4" css-class="dm-body">
+    <mj-include path="../partials/components/header.mjml" />
+
+    <mj-section
+      background-color="#ffffff"
+      padding="32px 24px"
+      css-class="dm-card"
+    >
+      <mj-column>
+        <!-- font-weight="700" (numeric) is more reliably parsed than "bold" in Outlook -->
+        <mj-text
+          font-size="24px"
+          font-weight="700"
+          color="#111111"
+          css-class="dm-heading"
+        >
+          Welcome, {{ name }}!
+        </mj-text>
+        <mj-text css-class="dm-text">
+          Thanks for joining. Click below to get started.
+        </mj-text>
+        <!--
+          dm-btn targets the outer <td> (Outlook).
+          The CSS rule ".dm-btn a" handles the inner <a> for all other clients.
+          No second css-class needed on the element itself.
+        -->
+        <mj-button
+          background-color="#0066cc"
+          href="{{ctaUrl}}"
+          css-class="dm-btn"
+          inner-padding="12px 24px"
+          font-weight="700"
+        >
+          Get started
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="../partials/components/footer.mjml" />
+  </mj-body>
+</mjml>

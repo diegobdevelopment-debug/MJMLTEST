@@ -1,0 +1,8 @@
+<mj-style>
+  /*
+   * a:hover is stripped by Gmail, Outlook, and most webmail clients.
+   * The rule is kept only for the small number of clients that do support it
+   * (Apple Mail, Thunderbird). It must never be the only way colour is applied.
+   */
+  a:hover { color: #004499; }
+</mj-style>
