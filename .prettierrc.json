@@ -1,0 +1,17 @@
+{
+  "singleQuote": true,
+  "semi": true,
+  "printWidth": 100,
+  "trailingComma": "all",
+  "overrides": [
+    {
+      "files": "*.mjml",
+      "options": {
+        "parser": "html",
+        "printWidth": 120,
+        "htmlWhitespaceSensitivity": "ignore",
+        "singleAttributePerLine": true
+      }
+    }
+  ]
+}

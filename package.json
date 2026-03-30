@@ -3,18 +3,31 @@
   "version": "1.0.0",
   "description": "MJML email templates spike",
   "private": true,
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "build": "node scripts/build.js",
     "watch": "node scripts/watch.js",
     "build:template": "node scripts/build.js --template",
-    "send": "node scripts/send.js"
+    "send": "node scripts/send.js",
+    "preview": "node scripts/preview.js",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "validate": "node scripts/validate.js",
+    "test": "jest",
+    "test:update": "jest --updateSnapshot"
   },
   "dependencies": {
+    "handlebars": "^4.7.0",
     "mjml": "^4.18.0",
-    "nodemailer": "^6.9.0"
+    "nodemailer": "^6.9.0",
+    "prettier": "^3.8.1"
   },
   "devDependencies": {
+    "cheerio": "^1.0.0",
     "chokidar": "^3.6.0",
-    "dotenv": "^16.0.0"
+    "dotenv": "^16.0.0",
+    "jest": "^30.3.0"
   }
 }

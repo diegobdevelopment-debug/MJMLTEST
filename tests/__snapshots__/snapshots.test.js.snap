@@ -1,0 +1,1904 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`template snapshots audi-connect-nav — compiled HTML matches snapshot 1`] = `
+"<!doctype html>
+<html lang="und" dir="auto" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <title>Audi</title>
+    <!--[if !mso]><!-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+      #outlook a { padding:0; }
+      body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%; }
+      table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt; }
+      img { border:0;height:auto;line-height:100%; outline:none;text-decoration:none;-ms-interpolation-mode:bicubic; }
+      p { display:block;margin:13px 0; }
+    </style>
+    <!--[if mso]>
+    <noscript>
+    <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    </noscript>
+    <![endif]-->
+    <!--[if lte mso 11]>
+    <style type="text/css">
+      .mj-outlook-group-fix { width:100% !important; }
+    </style>
+    <![endif]-->
+    
+    
+    <style type="text/css">
+      @media only screen and (min-width:480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+.mj-column-per-50 { width:50% !important; max-width: 50%; }
+      }
+    </style>
+    <style media="screen and (min-width:480px)">
+      .moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%; }
+.moz-text-html .mj-column-per-50 { width:50% !important; max-width: 50%; }
+    </style>
+    
+    
+  
+    
+    <style type="text/css">
+
+    @media only screen and (max-width:479px) {
+      table.mj-full-width-mobile { width: 100% !important; }
+      td.mj-full-width-mobile { width: auto !important; }
+    }
+  
+    </style>
+     
+    <style type="text/css">
+body, p, h1, h2, h3, h4 { margin: 0; padding: 0; }
+    * { box-sizing: border-box; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+    table { border-collapse: collapse; mso-table-lspace: 0; mso-table-rspace: 0; }
+    u + .body a { color: inherit; text-decoration: none; font-size: inherit; font-weight: inherit; line-height: inherit; }
+    sup { font-size: 0.6em; line-height: 0; }
+    a[x-apple-data-detectors] { color: inherit !important; text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; }
+    a { color: inherit !important; mso-color-alt: windowtext; text-decoration: none; }
+    .unlink a { color: inherit !important; text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; }
+    span.MsoHyperlink { color: inherit !important; mso-style-priority: 99 !important; }
+    span.MsoHyperlinkFollowed { color: inherit !important; mso-style-priority: 99 !important; }
+    img + div { display: none; }
+    div[style*="margin: 16px 0"] { margin: 0 !important; }
+    .showInMobile { display: none !important; }
+
+    @media screen and (max-width: 540px) {
+      #MessageViewBody, #MessageWebViewDiv { width: 100% !important; }
+      .alignLeft { text-align: left !important; }
+      .alignCenter { text-align: center !important; margin: 0 auto !important; }
+      .fullWidth { width: 100% !important; }
+      .displayTable { display: table !important; }
+      .hideInMobile { display: none !important; }
+      .mobileContainer { min-width: 360px !important; max-width: 360px !important; width: 360px !important; }
+      .showInMobile { width: 100% !important; display: block !important; float: none !important; }
+      .mobilePods { width: 100% !important; display: block !important; margin: 0 auto !important; }
+      .displayBlock { display: block !important; }
+      .hAuto { height: auto !important; max-height: none !important; }
+    }
+
+    @media screen and (max-width: 540px) {
+      .fontSize10Footer { font-size: 10px !important; line-height: 15px !important; letter-spacing: 1px; }
+      .fontSize13 { font-size: 13px !important; line-height: 18px !important; }
+      .fontSize14 { font-size: 14px !important; line-height: 22px !important; }
+      .fontSize16 { font-size: 16px !important; line-height: 24px !important; }
+      .h10 { height: 10px !important; } .h13 { height: 13px !important; } .h20 { height: 20px !important; }
+      .h26 { height: 26px !important; } .h30 { height: 30px !important; } .h36 { height: 36px !important; }
+      .w17 { width: 17px !important; } .w20 { width: 20px !important; } .w22 { width: 22px !important; }
+      .w24 { width: 24px !important; } .w27 { width: 27px !important; } .w29 { width: 29px !important; }
+      .w30 { width: 30px !important; } .w120 { width: 120px !important; } .w140 { width: 140px !important; }
+      .w324 { width: 324px !important; } .w360 { width: 360px !important; }
+      .padR0 { padding-right: 0px !important; } .padB25 { padding-bottom: 25px !important; } .padT5 { padding-top: 5px !important; }
+    }
+    </style>
+    <!--[if mso]><style>* { font-family: sans-serif !important; } sup { font-size: 100% !important; }</style>
+    <noscript><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml></noscript><![endif]-->
+  </head>
+  <body style="word-spacing:normal;">
+    
+    <div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">%%=v(@preheader)=%%</div>
+  
+    
+      <div
+         aria-label="Audi" aria-roledescription="email" style="" role="article" lang="und" dir="auto"
+      >
+        %%[/* Modify to view AMPScript - Email Specific
+<div style="display:none">*/
+
+  /* ── Data fields ── */
+  Set @email             = [Email]
+  Set @FirstName         = [FirstName]
+  Set @LastName          = [LastName]
+  Set @MdlDrvtvCde       = [MdlDrvtvCde]
+  Set @ModelName         = [MdlName]
+  Set @ModelYear         = [MdlYr]
+  Set @ModelTrim         = [MdlTrim]
+  Set @alt1              = [OrderID]
+  Set @alt2              = [SubscrptonEndDte]
+  Set @alt4              = [OrderStatus]
+  Set @alt5              = [PrdctName]
+  Set @SlsPriceGross     = [SlsPriceGross]
+  Set @tax               = [TaxAmt]
+  Set @tax               = FormatNumber(@tax, "N2")
+  Set @SlsPriceNet       = [SlsPriceNet]
+  Set @LicenseRunTime    = [LicenseRunTime]
+  Set @autoRenewalStatus = [autoRenewalStatus]
+
+  /* ── Campaign metadata ── */
+  Set @alt10           = "No Offer - No Offer"
+  Set @Campaign        = "AUUS_24_Ecomm"
+  Set @SubCampaign     = "AUUS_EM_24_Loy1P_Other-Gen4PlusConfNA"
+  Set @SubCampaignDesc = "Loyalty - 1P - Auto - Gen 4 Audi connect PLUS Confirmation - NA - NA"
+  Set @Audience        = "Current Owners - Gen 4 connect PLUS Conf"
+  Set @SendDate        = Now()
+  Set @SalesMatch      = "N"
+  Set @Vendor          = "Razorfish"
+  Set @Brand           = "AU"
+  Set @creative_flag   = "Transactional~Transactional~NA"
+  Set @Offer_CD        = "N"
+
+  /* ── Pricing & discount calculation ── */
+  Set @alt3                         = FormatNumber(@SlsPriceGross, "N2")
+  Set @RecurringCharge              = @alt3
+  Set @RecurringChargeQualifier     = ""
+  Set @IsDiscountApplied            = AttributeValue("IsDiscountApplied")
+  Set @Discount                     = AttributeValue("DiscountedAmount")
+  Set @SlstotalGrossWithoutDiscounts = AttributeValue("SlstotalGrossWithoutDiscounts")
+  Set @SlsTotalNetWithoutDiscounts   = AttributeValue("SlsTotalNetWithoutDiscounts")
+
+  If NOT EMPTY(@SlsTotalNetWithoutDiscounts) Then
+    Set @SlsTotalNetWithoutDiscounts = FormatNumber(@SlsTotalNetWithoutDiscounts, "N2")
+  Else
+    Set @SlsTotalNetWithoutDiscounts = "0"
+  EndIf
+
+  If NOT EMPTY(@Discount) AND NOT EMPTY(@isDiscountApplied)
+     AND (@isDiscountApplied == "true" OR @isDiscountApplied == "True" OR @isDiscountApplied == "1") Then
+    Set @SlsPriceNet              = @SlsTotalNetWithoutDiscounts
+    Set @Discount                 = FormatNumber(@Discount, "N2")
+    Set @SlsPriceGross            = Add(Subtract(@SlsTotalNetWithoutDiscounts, @Discount), @tax)
+    Set @alt3                     = FormatNumber(@SlsPriceGross, "N2")
+    Set @RecurringCharge          = FormatNumber(@SlstotalGrossWithoutDiscounts, "N2")
+    Set @RecurringChargeQualifier = ""
+  EndIf
+
+  Set @SlsPriceNetFormatted = FormatNumber(@SlsPriceNet, "N2")
+
+  /* ── Subscription duration label ── */
+  If      @LicenseRunTime == "P1Y"      Then Set @SubTime = " per year"                 Set @SubTimePara = "year"
+  ElseIf  @LicenseRunTime == "P12M"     Then Set @SubTime = " per year"                 Set @SubTimePara = "year"
+  ElseIf  @LicenseRunTime == "P1M"      Then Set @SubTime = " per month"                Set @SubTimePara = "month"
+  ElseIf  @LicenseRunTime == "P6M"      Then Set @SubTime = " every 6 months"           Set @SubTimePara = "6 months"
+  ElseIf  @LicenseRunTime == "P99Y"     Then Set @SubTime = " one&#8209;time&#8209;fee" Set @SubTimePara = "one&#8209;time&#8209;fee"
+  ElseIf  @LicenseRunTime == "lifetime" Then Set @SubTime = " one&#8209;time&#8209;fee" Set @SubTimePara = "one&#8209;time&#8209;fee"
+  ElseIf  @LicenseRunTime == "P3Y"      Then Set @SubTime = " every three years"        Set @SubTimePara = "three years"
+  ElseIf  @LicenseRunTime == "P1D"      Then Set @SubTime = " daily"                    Set @SubTimePara = "day"
+  ElseIf  @LicenseRunTime == "P18M"     Then Set @SubTime = " every 18 months"          Set @SubTimePara = "18 months"
+  Else                                       Set @SubTime = ""                           Set @SubTimePara = ""
+  EndIf
+
+  /* ── Auto-renewal status ── */
+  If @autoRenewalStatus == "ACTIVE" Then
+    Set @autoRenewalStatus = "Show Copy"
+  Else
+    Set @autoRenewalStatus = "Hide Copy"
+  EndIf
+
+  /* ── csref tracking base ── */
+  Set @trackingCampaign = "CRM_MX_TRTG_Ecomm"
+  Set @deploymentDate   = "20240521"
+  Set @touchNum         = "1"
+  Set @segmentAudi      = "Current Owners"
+  Set @segmentCD        = "NA_CO_1_NA"
+  Set @communication    = "AudiConnectNAV"
+  Set @testVersion      = "NA"
+  Set @csrefTagBase     = Concat(@trackingCampaign,'_',@deploymentDate,'_',@touchNum,'_',@segmentAudi,'_',@segmentCD,'_',@communication,'_',@testVersion,'_')
+
+  /* ── Personalization ── */
+  If @FirstName != "" Then
+    Set @greeting = Propercase(Trim(@FirstName))
+  Else
+    Set @greeting = "Audi Enthusiast"
+  EndIf
+
+  Set @subjectLine = Concat(@greeting, ", thanks for enrolling in Audi connect NAV.")
+  Set @preheader   = "Start using features designed for greater ease and convenience."
+
+/*</div>*/
+]%%<div style="display:none !important; visibility:hidden; mso-hide:all; max-height:0px; max-width:0px; opacity:0; overflow:hidden;">%%=v(@preheader)=%%</div>
+<div style="display:none">&#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847;</div>%%=ContentBlockByKey("Audi_Global_White_Header_2024")=%%<!-- ═══ HERO ═════════════════════════════════════════════════════════════ -->
+      
+      <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:720px;" width="720" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    
+      
+      <div  style="margin:0px auto;max-width:720px;">
+        
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style="direction:ltr;font-size:0px;padding:0;text-align:center;"
+              >
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:720px;" ><![endif]-->
+            
+      <div
+         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+      >
+        
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+      >
+        <tbody>
+          <tr>
+            <td  style="vertical-align:top;padding:0;">
+              
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align="center" class="hideInMobile" style="font-size:0px;padding:0;word-break:break-word;"
+                >
+                  
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
+      >
+        <tbody>
+          <tr>
+            <td  style="width:720px;">
+              
+        <a
+           href="https://www.audiusa.com/us/web/en/inside-audi/innovation/audi-connect.html?csref=%%=v(@csrefTagBase)=%%Hero_ExcitingConnectionsImg" target="_blank"
+        >
+          
+      <img
+         alt="Welcome to an exciting new connection." src="https://aoa-images-prod.s3.amazonaws.com/Automated/eCommerce/Gen4_Connect_eComm_Transactional/images/CPMAUDI-2811_Gen4_Audi_ConnectNAV_Desktop_HERO.jpg" style="border:none;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="720" height="auto"
+      />
+    
+        </a>
+      
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            <!--[if !mso]><!--><tr><td align="center" class="showInMobile" style="background:#ffffff;font-size:0px;padding:0;word-break:break-word;" ><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;" class="mj-full-width-mobile" ><tbody><tr><td style="width:360px;" class="mj-full-width-mobile"><a href="https://www.audiusa.com/us/web/en/inside-audi/innovation/audi-connect.html?csref=%%=v(@csrefTagBase)=%%Hero_ExcitingConnectionsImg" target="_blank" ><img alt="Welcome to an exciting new connection." src="https://aoa-images-prod.s3.amazonaws.com/Automated/eCommerce/Gen4_Connect_eComm_Transactional/images/CPMAUDI-2811_Gen4_Audi_ConnectNAV_Mobile_HERO.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="360" height="auto" /></a></td></tr></tbody></table></td></tr><!--<![endif]-->
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    <!-- ═══ PRIMARY CONTENT ══════════════════════════════════════════════════ -->
+      
+      <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:720px;" width="720" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    
+      
+      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:720px;">
+        
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style="direction:ltr;font-size:0px;padding:0;text-align:center;"
+              >
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:720px;" ><![endif]-->
+            
+      <div
+         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+      >
+        
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+      >
+        <tbody>
+          <tr>
+            <td  style="vertical-align:top;padding:0 30px;">
+              
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align="left" style="font-size:0px;padding:40px 0 20px 0;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:20px;font-weight:bold;line-height:30px;text-align:left;color:#000000;"
+      >%%=v(@greeting)=%%,</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align="left" style="font-size:0px;padding:0 0 20px 0;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;text-align:left;color:#000000;"
+      >Thank you for enrolling in Audi connect NAV* for greater peace of mind
+          and an enhanced ownership experience. Here are your plan&nbsp;details:</div>
+    
+                </td>
+              </tr>
+            <table class="hideInMobile" width="100%" role="presentation" cellpadding="0" cellspacing="0" border="0" style="padding-bottom:40px;">
+  <tr>
+    <td width="195" valign="top"><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;font-weight:bold;">Subscription:</p></td>
+    <td><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;">Audi connect NAV*</p></td>
+  </tr>
+  <tr>
+    <td style="padding-bottom:22px;" valign="top"><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;font-weight:bold;">Order Number:</p></td>
+    <td style="padding-bottom:22px;"><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;">%%=v(@alt1)=%%</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;font-weight:bold;">Included Services:</p></td>
+    <td style="padding-bottom:22px;"><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;">Online navigation<br />Traffic light information</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;font-weight:bold;">%%[If @autoRenewalStatus == "Show Copy" then]%%Renews %%[Else]%%Expires %%[EndIf]%%on:</p></td>
+    <td><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;">%%=FormatDate(@alt2, "mm")=%%&zwj;/&zwj;%%=FormatDate(@alt2, "dd")=%%&zwj;/&zwj;%%=FormatDate(@alt2, "yyyy")=%%</p></td>
+  </tr>
+  %%[IF @isDiscountApplied == "true" OR @isDiscountApplied == "True" OR @isDiscountApplied == "1" THEN]%%
+  <tr>
+    <td valign="top"><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;font-weight:bold;" class="fontSize13"><strong>Subtotal:</strong></p></td>
+    <td valign="top"><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;" class="fontSize13">$%%=v(@SlsPriceNetFormatted)=%%</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;" class="fontSize13"><strong>Discount:</strong></p></td>
+    <td valign="top"><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#009900;" class="fontSize13">-$%%=v(@Discount)=%%</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;" class="fontSize13"><strong>Tax:</strong></p></td>
+    <td valign="top"><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;" class="fontSize13">$%%=v(@tax)=%%</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;" class="fontSize13"><strong>Total with tax:</strong></p></td>
+    <td valign="top"><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;" class="fontSize13">$%%=v(@alt3)=%% towards your first payment only</p></td>
+  </tr>
+  %%[ELSE]%%
+  <tr>
+    <td valign="top"><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;font-weight:bold;">Cost:</p></td>
+    <td><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;">$%%=v(@alt3)=%%</p></td>
+  </tr>
+  %%[ENDIF]%%
+</table>
+
+<!--[if !mso]><!--><table class="showInMobile" width="100%" role="presentation" cellpadding="0" cellspacing="0" border="0" style="display:none; padding-bottom:40px;"><tr><td valign="top"><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;"><strong>Subscription:</strong> Audi connect NAV*</p></td></tr><tr><td style="padding-bottom:22px;" valign="top"><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;"><strong>Order Number:</strong><br>%%=v(@alt1)=%%</p></td></tr><tr><td valign="top"><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;"><strong>Included Services:</strong></p></td></tr><tr><td><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;">Online navigation<br />Traffic light information</p></td></tr><tr><td style="padding-top:22px;" valign="top"><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;"><strong>%%[If @autoRenewalStatus == "Show Copy" then]%%Renews %%[Else]%%Expires %%[EndIf]%%on:</strong> %%=FormatDate(@alt2, "mm")=%%&zwj;/&zwj;%%=FormatDate(@alt2, "dd")=%%&zwj;/&zwj;%%=FormatDate(@alt2, "yyyy")=%%</p></td></tr> %%[IF @isDiscountApplied == "true" OR @isDiscountApplied == "True" OR @isDiscountApplied == "1" THEN]%%
+<tr><td style="padding-top:22px;" valign="top"><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;"><strong>Subtotal:</strong> $%%=v(@SlsPriceNetFormatted)=%%</p></td></tr><tr><td style="padding-top:22px;" valign="top"><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;"><strong>Discount:</strong><span style="color:#009900;">-$%%=v(@Discount)=%%</span></p></td></tr><tr><td style="padding-top:22px;" valign="top"><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;"><strong>Tax:</strong> $%%=v(@tax)=%%</p></td></tr><tr><td style="padding-top:22px;" valign="top"><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;"><strong>Total with tax:</strong> $%%=v(@alt3)=%% towards your first payment only</p></td></tr> %%[ELSE]%%
+<tr><td style="padding-top:22px;" valign="top"><p style="font-family:Verdana,Arial,Helvetica,sans-serif;font-size:16px;line-height:22px;color:#000000;"><strong>Cost:</strong> $%%=v(@alt3)=%%</p></td></tr> %%[ENDIF]%%
+</table><!--<![endif]-->
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    <!-- ═══ AUTO-RENEWAL COPY ════════════════════════════════════════════════ -->%%[If @autoRenewalStatus == "Show Copy" then]%%%%[If @isDiscountApplied == "true" OR @isDiscountApplied == "True" OR @isDiscountApplied == "1" then]%%
+      
+      <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:720px;" width="720" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    
+      
+      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:720px;">
+        
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style="direction:ltr;font-size:0px;padding:0;text-align:center;"
+              >
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:720px;" ><![endif]-->
+            
+      <div
+         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+      >
+        
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+      >
+        <tbody>
+          <tr>
+            <td  style="vertical-align:top;padding:0 30px;">
+              
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align="left" style="font-size:0px;padding:0 0 20px 0;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:16px;font-weight:bold;line-height:22px;text-align:left;color:#000000;"
+      >Your card will be charged $%%=v(@RecurringCharge)=%%%%=v(@RecurringChargeQualifier)=%% each time your subscription renews. Discounts are only applied to the first payment and not on the subsequent charges.</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    %%[EndIf]%%
+      
+      <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:720px;" width="720" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    
+      
+      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:720px;">
+        
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style="direction:ltr;font-size:0px;padding:0;text-align:center;"
+              >
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:720px;" ><![endif]-->
+            
+      <div
+         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+      >
+        
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+      >
+        <tbody>
+          <tr>
+            <td  style="vertical-align:top;padding:0 30px;">
+              
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align="left" style="font-size:0px;padding:0 0 20px 0;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:16px;font-weight:bold;line-height:22px;text-align:left;color:#000000;"
+      >Your Audi connect NAV subscription is set to automatically renew every %%=v(@SubTimePara)=%% at a cost of $%%=v(@RecurringCharge)=%%%%=v(@RecurringChargeQualifier)=%%&#46; Your payment method on file in the myAudi account will be automatically charged at the beginning of each billing period unless you cancel your subscription at least 15 days prior to your next billing date. (You can view your next billing date in the myAudi app under the Subscription Management section.) You can cancel by logging into the myAudi mobile app and visiting your Audi connect subscription settings (Account Setting &gt; Subscriptions). You can also cancel your plan by contacting&nbsp;(877&#8209;505&#8209;Audi).</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align="left" style="font-size:0px;padding:0 0 40px 0;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:16px;font-weight:bold;line-height:22px;text-align:left;color:#000000;"
+      >Click <a alias="Body_HereCtaTxt" href="https://www.audiusa.com/us/web/en/about-myaudi.html?csref=%%=v(@csrefTagBase)=%%Body_HereCtaTxt" target="_blank" style="color:#0C73E3;text-decoration:underline;">here</a> for additional billing and cancelation terms. Log in to your myAudi account online or visit the myAudi app to view tutorials and manage your&nbsp;account.</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    %%[EndIf]%%<!-- ═══ POD 1 — Image left, dark background ══════════════════════════════ -->
+      
+      <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:720px;" width="720" bgcolor="#1a1a1a" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    
+      
+      <div  style="background:#1a1a1a;background-color:#1a1a1a;margin:0px auto;max-width:720px;">
+        
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#1a1a1a;background-color:#1a1a1a;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style="direction:ltr;font-size:0px;padding:0;text-align:center;"
+              >
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="mobilePods-outlook" style="vertical-align:top;width:360px;" ><![endif]-->
+            
+      <div
+         class="mj-column-per-50 mj-outlook-group-fix mobilePods" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+      >
+        
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+      >
+        <tbody>
+          <tr>
+            <td  style="vertical-align:top;padding:0;">
+              
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align="center" class="hideInMobile" style="font-size:0px;padding:0;word-break:break-word;"
+                >
+                  
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
+      >
+        <tbody>
+          <tr>
+            <td  style="width:360px;">
+              
+        <a
+           href="https://www.audiusa.com/us/web/en/about-myaudi.html?csref=%%=v(@csrefTagBase)=%%Tile1_HoldingPhoneImg" target="_blank"
+        >
+          
+      <img
+         alt="" src="https://aoa-images-prod.s3.amazonaws.com/Automated/eCommerce/Gen4_Connect_eComm_Transactional/images/CPMAUDI-2811_Gen4_Audi_AllVersions_Desktop_POD1.jpg" style="border:none;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="360" height="auto"
+      />
+    
+        </a>
+      
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            <!--[if !mso]><!--><tr><td align="center" class="showInMobile" style="font-size:0px;padding:0;word-break:break-word;" ><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;" class="mj-full-width-mobile" ><tbody><tr><td style="width:360px;" class="mj-full-width-mobile"><a href="https://www.audiusa.com/us/web/en/about-myaudi.html?csref=%%=v(@csrefTagBase)=%%Tile1_HoldingPhoneImg" target="_blank" ><img alt="" src="https://aoa-images-prod.s3.amazonaws.com/Automated/eCommerce/Gen4_Connect_eComm_Transactional/images/CPMAUDI-2811_Gen4_Audi_AllVersions_Mobile_POD1.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="360" height="auto" /></a></td></tr></tbody></table></td></tr><!--<![endif]-->
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td><td class="mobilePods-outlook" style="vertical-align:middle;width:360px;" ><![endif]-->
+            
+      <div
+         class="mj-column-per-50 mj-outlook-group-fix mobilePods" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;"
+      >
+        
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+      >
+        <tbody>
+          <tr>
+            <td  style="vertical-align:middle;padding:0 30px;">
+              
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align="left" style="font-size:0px;padding:40px 0 20px 0;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:18px;font-weight:bold;line-height:28px;text-align:left;color:#ffffff;"
+      >Manage it all through the myAudi&nbsp;app.<sup>&szlig;</sup></div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align="left" style="font-size:0px;padding:0 0 20px 0;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;text-align:left;color:#ffffff;"
+      >To get started, set yourself as your vehicle&rsquo;s Key User, then
+          download the app from the
+          <a alias="Tile1_AppStoreTxt" href="https://apps.apple.com/bg/app/myaudi/id440464115" target="_blank" style="color:#ffffff;text-decoration:underline;">App Store</a>
+          or
+          <a alias="Tile1_GooglePlayTxt" href="https://play.google.com/store/apps/details?id=de.myaudi.mobile.assistant&hl=en_US" target="_blank" style="color:#ffffff;text-decoration:underline;">Google&nbsp;Play</a>&trade;&nbsp;store.</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align="left" style="font-size:0px;padding:0 0 40px 0;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:16px;font-weight:bold;line-height:22px;text-align:left;color:#ffffff;"
+      ><a alias="Tile1_ManageMyPlanCtaTxt" href="https://www.audiusa.com/us/web/en/about-myaudi.html?csref=%%=v(@csrefTagBase)=%%Tile1_ManageMyPlanCtaTxt" target="_blank" style="color:#ffffff;text-decoration:none;">Manage my plan &gt;</a></div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    <!-- ═══ POD 2 — Image right, white background ════════════════════════════ --><!--[if !mso]><!--><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="showInMobile-outlook" role="presentation" style="width:720px;" width="720" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    
+      
+      <div  class="showInMobile" style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:720px;">
+        
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style="direction:ltr;font-size:0px;padding:0;text-align:center;"
+              >
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:720px;" ><![endif]-->
+            
+      <div
+         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+      >
+        
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+      >
+        <tbody>
+          <tr>
+            <td  style="vertical-align:top;padding:0;">
+              
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align="center" class="showInMobile" style="font-size:0px;padding:0;word-break:break-word;"
+                >
+                  
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;" class="mj-full-width-mobile"
+      >
+        <tbody>
+          <tr>
+            <td  style="width:360px;" class="mj-full-width-mobile">
+              
+        <a
+           href="https://www.audiusa.com/us/web/en/inside-audi/innovation/audi-connect.html?csref=%%=v(@csrefTagBase)=%%Tile2_InteriorImg" target="_blank"
+        >
+          
+      <img
+         alt="" src="https://aoa-images-prod.s3.amazonaws.com/Automated/eCommerce/Gen4_Connect_eComm_Transactional/images/CPMAUDI-2811_Gen4_Audi_AllVersions_Mobile_POD2.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="360" height="auto"
+      />
+    
+        </a>
+      
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    <!--<table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:720px;" width="720" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    
+      
+      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:720px;">
+        
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style="direction:ltr;font-size:0px;padding:0;text-align:center;"
+              >
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="mobilePods-outlook" style="vertical-align:middle;width:360px;" ><![endif]-->
+            
+      <div
+         class="mj-column-per-50 mj-outlook-group-fix mobilePods" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;"
+      >
+        
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+      >
+        <tbody>
+          <tr>
+            <td  style="vertical-align:middle;padding:0 30px;">
+              
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align="left" style="font-size:0px;padding:40px 0 20px 0;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:18px;font-weight:bold;line-height:28px;text-align:left;color:#000000;"
+      >Explore Audi connect NAV*&nbsp;features.</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align="left" style="font-size:0px;padding:0 0 20px 0;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;text-align:left;color:#000000;"
+      >Learn about your connect features. Remember, some features available
+          in your plan require an additional registration to activate,&nbsp;including:</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align="left" style="font-size:0px;padding:0 0 20px 0;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;text-align:left;color:#000000;"
+      ><ul style="margin:0">
+            <li>Fuel prices</li>
+            <li>Parking info</li>
+            <li>Satellite imagery</li>
+          </ul></div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align="left" style="font-size:0px;padding:0 0 40px 0;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:16px;font-weight:bold;line-height:22px;text-align:left;color:#000000;"
+      ><a alias="Tile2_LearnMoreCtaTxt" href="https://www.audiusa.com/us/web/en/inside-audi/innovation/audi-connect.html?csref=%%=v(@csrefTagBase)=%%Tile2_LearnMoreCtaTxt" target="_blank" style="color:#000000;text-decoration:none;">Learn more &gt;</a></div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td><td class="hideInMobile-outlook mobilePods-outlook" style="vertical-align:top;width:360px;" ><![endif]-->
+            
+      <div
+         class="mj-column-per-50 mj-outlook-group-fix hideInMobile mobilePods" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+      >
+        
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+      >
+        <tbody>
+          <tr>
+            <td  style="vertical-align:top;padding:0;">
+              
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align="center" class="hideInMobile" style="font-size:0px;padding:0;word-break:break-word;"
+                >
+                  
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
+      >
+        <tbody>
+          <tr>
+            <td  style="width:360px;">
+              
+        <a
+           href="https://www.audiusa.com/us/web/en/inside-audi/innovation/audi-connect.html?csref=%%=v(@csrefTagBase)=%%Tile2_InteriorImg" target="_blank"
+        >
+          
+      <img
+         alt="" src="https://aoa-images-prod.s3.amazonaws.com/Automated/eCommerce/Gen4_Connect_eComm_Transactional/images/CPMAUDI-2811_Gen4_Audi_AllVersions_Desktop_POD2.jpg" style="border:none;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="360" height="auto"
+      />
+    
+        </a>
+      
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    <!-- ═══ FOOTER ═══════════════════════════════════════════════════════════ -->
+      
+      <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:720px;" width="720" bgcolor="#000000" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    
+      
+      <div  style="background:#000000;background-color:#000000;margin:0px auto;max-width:720px;">
+        
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#000000;background-color:#000000;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style="direction:ltr;font-size:0px;padding:0;text-align:center;"
+              >
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:720px;" ><![endif]-->
+            
+      <div
+         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+      >
+        
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+      >
+        <tbody>
+          <tr>
+            <td  style="vertical-align:top;padding:0;">
+              
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"
+      >
+        <tbody>
+          %%=ContentBlockByKey("Audi_HR_Footer_Static_1_App_2024")=%%
+              <tr>
+                <td
+                   align="left" style="font-size:0px;padding:15px 37px 0 37px;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;font-weight:normal;letter-spacing:-0.5px;line-height:15px;text-align:left;color:#ffffff;"
+      >* Always pay careful attention to the road, and do not drive while
+      distracted. Audi connect should only be used when it is safe and
+      appropriate. Audi connect services are provided with the support of
+      authorized affiliated and third&#8209;party service providers. Connect
+      CARE Safety and Security vehicle services are activated prior to
+      purchase or lease and do not require registration or paid subscription;
+      acceptance of Terms of Service is required for Remote vehicle services.
+      Connect NAV services are optional and may require an additional
+      subscription with separate terms and conditions. Trial or paid
+      subscription required. Not available on models without navigation.
+      Audi connect services require vehicle cellular connectivity and
+      availability of vehicle GPS signal; certain services collect location
+      information, see Terms of Service for information about how to disable.
+      Audi connect services depend on connection to and continued availability
+      of 4G LTE cellular service, which is outside of Audi&rsquo;s control.
+      Audi connect services are not guaranteed or warranted in the event of
+      4G LTE network shutdowns, obsolescence, or other unavailability of
+      cellular connectivity that relies on existing vehicle hardware. All
+      Audi connect services are subject to change, discontinuation, or
+      cancellation without notice. See Terms of Service, Privacy Policy, and
+      other details at
+      <a href="https://www.audiusa.com/en/compliance/privacy/?csref=%%=v(@csrefTagBase)=%%Footer_AudiNavPolicyTxt" alias="Footer_AudiNavPolicyTxt" target="_blank" style="color:#ffffff;text-decoration:underline;line-height:15px;">www.audiusa.com/privacy</a>
+      and
+      <a href="https://www.audiusa.com/en/compliance/terms-of-service/audi-connect/?csref=%%=v(@csrefTagBase)=%%Footer_AudiNavTermsTxt" alias="Footer_AudiNavTermsTxt" target="_blank" style="color:#ffffff;text-decoration:underline;line-height:15px;">https://www.audiusa.com/technology/intelligence/audi-connect/connect-terms</a>.</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align="left" style="font-size:0px;padding:10px 37px 0 37px;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;font-weight:normal;letter-spacing:-0.5px;line-height:15px;text-align:left;color:#ffffff;"
+      >&szlig; myAudi services require myAudi account and acceptance of Terms
+      of Service. Certain services may require trial or paid subscriptions,
+      which may have their own terms and conditions. Services through the
+      myAudi app require cellular connectivity, network compatible hardware,
+      and availability of vehicle GPS signal. Not all services and features
+      are available on all vehicles, and some features may require the most
+      recent software update. Standard text and data rates may apply for app
+      and web features. See Terms of Service, Privacy Statement, and other
+      important information at&nbsp;<a href="https://www.audiusa.com/us/web/en/about-myaudi.html?csref=%%=v(@csrefTagBase)=%%Footer_myAudiTxt" alias="Footer_myAudiTxt" target="_blank" style="color:#ffffff;text-decoration:underline;line-height:15px;">audiusa.com/myaudi</a>.</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align="left" style="font-size:0px;padding:10px 37px 0 37px;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;font-weight:normal;letter-spacing:-0.5px;line-height:15px;text-align:left;color:#ffffff;"
+      >1 Standard text and data usage rates apply. Always pay careful
+      attention to the road, and do not drive while&nbsp;distracted.</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align="left" style="font-size:0px;padding:10px 37px 0 37px;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;font-weight:normal;letter-spacing:-0.5px;line-height:15px;text-align:left;color:#ffffff;"
+      >&ldquo;Audi,&rdquo; &ldquo;Singleframe&rdquo; and the Singleframe
+      grille design, the four rings logo and all model names are registered
+      trademarks of AUDI AG. &ldquo;Apple&rdquo; and the Apple logo are
+      trademarks of Apple Inc., registered in the U.S. and other countries
+      and regions. &ldquo;App Store&rdquo; is a service mark of Apple Inc.
+      &ldquo;Google Play&rdquo; and the Google Play logo are trademarks of
+      Google LLC. All other trademarks are the property of their
+      respective&nbsp;owners.</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align="left" style="font-size:0px;padding:8px 37px 0 37px;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;font-weight:normal;letter-spacing:-0.5px;line-height:15px;text-align:left;color:#ffffff;"
+      >To ensure you continue to receive emails from Audi, please place
+      <a href="mailto:AudiExperience@e.audiusa.com" alias="Footer_AudiExperienceTxt" style="color:#ffffff;text-decoration:underline;line-height:15px;">AudiExperience@e.audiusa.com</a>
+      in your address book. You may also
+      <a href="https://www.audiusa.com/us/web/en/support/contact-us.html?csref=%%=v(@csrefTagBase)=%%Footer_ContactAudiTxt" alias="Footer_ContactAudiTxt" target="_blank" style="color:#ffffff;text-decoration:underline;line-height:15px;">contact Audi directly</a>
+      with questions or for additional information. This is an outbound email
+      only; we will be unable to respond to replies. For comments and
+      questions, please contact&nbsp;<a alias="Footer_AudiTalkTxt" href="mailto:auditalk@audi.com" target="_blank" style="color:#ffffff;text-decoration:underline;line-height:15px;">auditalk@audi.com</a>.</div>
+    
+                </td>
+              </tr>
+            %%=ContentBlockByKey("Audi_Global_Foot_Social_Address_2024")=%%
+              <tr>
+                <td
+                   align="left" style="font-size:0px;padding:40px 0;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;text-align:left;color:#000000;"
+      ></div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    <!-- ═══ SFMC tracking ═══════════════════════════════════════════════════ --><!--[if !mso]><!--><div style="display:none;"><a style="color:#000000;" href="%%profile_center_url%%">Update Profile</a><span style="color:#000000;">This email was sent by:
+<strong>%%Member_Busname%%</strong> %%Member_Addr%% %%Member_City%%, %%Member_State%%, %%Member_PostalCode%%, %%Member_Country%%
+</span><custom name="opencounter" type="tracking"/></div><!--<![endif]-->
+      </div>
+    
+  </body>
+</html>
+  "
+`;
+
+exports[`template snapshots example-amp — compiled HTML matches snapshot 1`] = `
+"<!doctype html>
+<html lang="und" dir="auto" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <title>Example</title>
+    <!--[if !mso]><!-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+      #outlook a { padding:0; }
+      body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%; }
+      table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt; }
+      img { border:0;height:auto;line-height:100%; outline:none;text-decoration:none;-ms-interpolation-mode:bicubic; }
+      p { display:block;margin:13px 0; }
+    </style>
+    <!--[if mso]>
+    <noscript>
+    <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    </noscript>
+    <![endif]-->
+    <!--[if lte mso 11]>
+    <style type="text/css">
+      .mj-outlook-group-fix { width:100% !important; }
+    </style>
+    <![endif]-->
+    
+    
+    <style type="text/css">
+      @media only screen and (min-width:480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+      }
+    </style>
+    <style media="screen and (min-width:480px)">
+      .moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%; }
+    </style>
+    
+    
+  
+    
+    
+    <!--
+      amp.v() in <mj-preview>:
+      Outputs the preheader variable in the email subject preview line.
+      Produces: <mj-preview>%%=v(@preheader)=%%</mj-preview>
+    -->
+  </head>
+  <body style="word-spacing:normal;">
+    
+    <div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">%%=v(@preheader)=%%</div>
+  
+    
+      <div
+         aria-label="Example" aria-roledescription="email" style="" role="article" lang="und" dir="auto"
+      >
+        <!--
+    ════════════════════════════════════════════════════════════════════════
+     DECLARATIONS BLOCK
+     • Always the first element inside <mj-body>
+     • Wraps all Set statements in a single %%[ ... ]%% block
+     • The div+comment trick hides the block in browser preview
+     • Strip the outer %%[ ]%% delimiters with .replace() to merge
+       multiple block builders into one wrapper
+    ════════════════════════════════════════════════════════════════════════
+    -->%%[/* Modify to view AMPScript - Email Specific
+<div style="display:none">*/
+Set @email = [Email]
+  Set @FirstName = [FirstName]
+  Set @LastName = [LastName]
+  Set @Campaign = "EXAMPLE_CAMPAIGN"
+  Set @SendDate = Now()
+  Set @preheader = "Your default preheader text."
+If @FirstName != "" then
+    Set @greeting = Propercase(Trim(@FirstName))
+  Else
+    Set @greeting = "Valued Customer"
+  EndIf
+Set @trackingCampaign = "CRM_EXAMPLE"
+  Set @deploymentDate = "20240101"
+  Set @touchNum = "1"
+  Set @csrefTagBase = Concat(@trackingCampaign, '_', @deploymentDate, '_', @touchNum, '_')
+/*</div>*/
+]%%<!--
+    ════════════════════════════════════════════════════════════════════════
+     PREHEADER SPACER
+     • amp.preheaderBlock('preheader') — use the var name you declared above
+     • Produces a hidden div with the preheader text + zero-width spacers
+     • Required in every email
+    ════════════════════════════════════════════════════════════════════════
+    --><div style="display:none !important; visibility:hidden; mso-hide:all; max-height:0px; max-width:0px; opacity:0; overflow:hidden;">%%=v(@preheader)=%%</div>
+<div style="display:none">&#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847;</div><!--
+    ════════════════════════════════════════════════════════════════════════
+     CONTENT BLOCK — header
+     • amp.contentBlock('Key') inside <mj-raw>
+     • The key is the content block's External Key in SFMC
+     • Never use inside <mj-text> — this is server-side content
+    ════════════════════════════════════════════════════════════════════════
+    -->%%=ContentBlockByKey("Brand_Global_Header_2024")=%%<!--
+    ════════════════════════════════════════════════════════════════════════
+     INLINE VARIABLE OUTPUT  —  amp.v()
+     • Use directly inside <mj-text>, href, alt, etc.
+     • amp.v('greeting')  →  %%=v(@greeting)=%%
+    ════════════════════════════════════════════════════════════════════════
+    -->
+      
+      <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    
+      
+      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+        
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style="direction:ltr;font-size:0px;padding:0;text-align:center;"
+              >
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+            
+      <div
+         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+      >
+        
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+      >
+        <tbody>
+          <tr>
+            <td  style="vertical-align:top;padding:0 30px;">
+              
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align="left" style="font-size:0px;padding:40px 0 20px 0;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:20px;font-weight:bold;line-height:22px;text-align:left;color:#000000;"
+      >%%=v(@greeting)=%%,</div>
+    
+                </td>
+              </tr>
+            <!--
+        ════════════════════════════════════════════════════════════════════
+         INLINE CONDITIONAL  —  amp.ifInline()
+         • Use when two short output strings depend on a condition,
+           within the same paragraph or sentence.
+         • amp.ifInline('@autoRenewal == "ACTIVE"', 'renews', 'expires')
+           →  %%[If @autoRenewal == "ACTIVE" then]%%renews%%[Else]%%expires%%[EndIf]%%
+         • DO NOT use for showing/hiding full sections → use amp.ifSection()
+        ════════════════════════════════════════════════════════════════════
+        -->
+              <tr>
+                <td
+                   align="left" style="font-size:0px;padding:0 0 20px 0;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;text-align:left;color:#000000;"
+      >Your subscription %%[If @autoRenewal == "ACTIVE" then]%%renews%%[Else]%%expires%%[EndIf]%% on
+          %%=FormatDate(@expiryDate, "mm")=%%/%%=FormatDate(@expiryDate, "dd")=%%/%%=FormatDate(@expiryDate, "yyyy")=%%.</div>
+    
+                </td>
+              </tr>
+            <!--
+        ════════════════════════════════════════════════════════════════════
+         FORMAT DATE  —  amp.formatDate()
+         • amp.formatDate('varName', 'format')
+           →  %%=FormatDate(@varName, "format")=%%
+         • Common formats: "mm" "dd" "yyyy" "mmmm d, yyyy"
+         • Shown above combined to produce: 12/31/2025
+        ════════════════════════════════════════════════════════════════════
+        -->
+              <tr>
+                <td
+                   align="left" style="font-size:0px;padding:0 0 40px 0;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;text-align:left;color:#000000;"
+      >Thank you for being a customer.</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    <!--
+    ════════════════════════════════════════════════════════════════════════
+     CONDITIONAL SECTION  —  amp.ifSection()
+     • Use when an entire <mj-section> should only appear conditionally.
+     • Automatically wraps the MJML with <mj-raw>%%[If … then]%%</mj-raw>
+       and <mj-raw>%%[EndIf]%%</mj-raw> — tags are always balanced.
+     • With else:  amp.ifSection(cond, ifMarkup, elseMarkup)
+     • Nested:     amp.ifSection(outer, amp.ifSection(inner, …) + otherMarkup)
+     • DO NOT use for toggling rows inside a table → use a single <mj-raw>
+       containing the whole table (see audi-connect-nav.mjml.js)
+    ════════════════════════════════════════════════════════════════════════
+    -->%%[If @showPromo == "true" then]%%
+      
+      <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#f5f5f5" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    
+      
+      <div  style="background:#f5f5f5;background-color:#f5f5f5;margin:0px auto;max-width:600px;">
+        
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#f5f5f5;background-color:#f5f5f5;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style="direction:ltr;font-size:0px;padding:20px 30px;text-align:center;"
+              >
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:540px;" ><![endif]-->
+            
+      <div
+         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+      >
+        
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:16px;font-weight:bold;line-height:22px;text-align:left;color:#000000;"
+      >Special offer just for you!</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    %%[EndIf]%%<!--
+    ════════════════════════════════════════════════════════════════════════
+     CONTENT BLOCK — footer
+    ════════════════════════════════════════════════════════════════════════
+    -->
+      
+      <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#000000" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    
+      
+      <div  style="background:#000000;background-color:#000000;margin:0px auto;max-width:600px;">
+        
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#000000;background-color:#000000;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style="direction:ltr;font-size:0px;padding:0;text-align:center;"
+              >
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+            
+      <div
+         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+      >
+        
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
+      >
+        <tbody>
+          %%=ContentBlockByKey("Brand_Footer_Static_2024")=%%
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    <!--
+    ════════════════════════════════════════════════════════════════════════
+     SFMC TRACKING BLOCK
+     • Always the last element inside <mj-body>
+     • Required by SFMC — omitting it causes deployment errors
+    ════════════════════════════════════════════════════════════════════════
+    --><!--[if !mso]><!--><div style="display:none;"><a style="color:#000000;" href="%%profile_center_url%%">Update Profile</a><span style="color:#000000;">This email was sent by:
+<strong>%%Member_Busname%%</strong> %%Member_Addr%% %%Member_City%%, %%Member_State%%, %%Member_PostalCode%%, %%Member_Country%%
+</span><custom name="opencounter" type="tracking"/></div><!--<![endif]-->
+      </div>
+    
+  </body>
+</html>
+  "
+`;
+
+exports[`template snapshots welcome — compiled HTML matches snapshot 1`] = `
+"<!doctype html>
+<html lang="und" dir="auto" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <title>Welcome</title>
+    <!--[if !mso]><!-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+      #outlook a { padding:0; }
+      body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%; }
+      table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt; }
+      img { border:0;height:auto;line-height:100%; outline:none;text-decoration:none;-ms-interpolation-mode:bicubic; }
+      p { display:block;margin:13px 0; }
+    </style>
+    <!--[if mso]>
+    <noscript>
+    <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    </noscript>
+    <![endif]-->
+    <!--[if lte mso 11]>
+    <style type="text/css">
+      .mj-outlook-group-fix { width:100% !important; }
+    </style>
+    <![endif]-->
+    
+    
+    <style type="text/css">
+      @media only screen and (min-width:480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+      }
+    </style>
+    <style media="screen and (min-width:480px)">
+      .moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%; }
+    </style>
+    
+    
+  
+    
+     
+    <style type="text/css">
+/* * a:hover is stripped by Gmail, Outlook, and most webmail clients. * The rule is kept only for the small number of
+  clients that do support it * (Apple Mail, Thunderbird). It must never be the only way colour is applied. */ a:hover {
+  color: #001999ff; }
+/*
+   * Dark mode — three-pronged approach
+   * ─────────────────────────────────────────────────────────────────
+   * 1. @media (prefers-color-scheme: dark)
+   *    Covers: Apple Mail, iOS Mail, Gmail app (Android/iOS),
+   *            Samsung Mail, Thunderbird, Yahoo Mail (web)
+   *
+   * 2. [data-ogsc] prefix
+   *    Covers: Outlook.com and Office 365 web
+   *    (ignores media queries; injects its own attribute on <html>)
+   *
+   * MJML inlines all styles, so overrides must use !important.
+   * Apply these classes via css-class="" on mj-body / mj-section /
+   * mj-column / mj-text / mj-button as shown in the templates.
+   * ─────────────────────────────────────────────────────────────────
+   */
+
+  /* ── Page background ─────────────────────────────────────── */
+  /*
+   * body targets the <body> tag directly.
+   * .dm-body targets the MJML-generated outer <div> wrapper.
+   * Split into separate rules — grouping selectors (body, .dm-body)
+   * are dropped by Gmail Mobile Webmail, ProtonMail, SFR, and WEB.DE.
+   */
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #121212 !important;
+    }
+    .dm-body {
+      background-color: #121212 !important;
+    }
+  }
+  [data-ogsc] body {
+    background-color: #121212 !important;
+  }
+  [data-ogsc] .dm-body {
+    background-color: #121212 !important;
+  }
+
+  /* ── Section backgrounds ──────────────────────────────────── */
+  @media (prefers-color-scheme: dark) {
+    .dm-card {
+      background-color: #1e1e1e !important;
+    }
+    .dm-hero {
+      background-color: #004499 !important;
+    }
+    .dm-footer {
+      background-color: #1a1a1a !important;
+    }
+  }
+  [data-ogsc] .dm-card {
+    background-color: #1e1e1e !important;
+  }
+  [data-ogsc] .dm-hero {
+    background-color: #004499 !important;
+  }
+  [data-ogsc] .dm-footer {
+    background-color: #1a1a1a !important;
+  }
+
+  /* ── Text ────────────────────────────────────────────────── */
+  @media (prefers-color-scheme: dark) {
+    .dm-heading {
+      color: #ffffff !important;
+    }
+    .dm-text {
+      color: #cccccc !important;
+    }
+    .dm-muted {
+      color: #888888 !important;
+    }
+    a {
+      color: #66aaff !important;
+    }
+  }
+  [data-ogsc] .dm-heading {
+    color: #ffffff !important;
+  }
+  [data-ogsc] .dm-text {
+    color: #cccccc !important;
+  }
+  [data-ogsc] .dm-muted {
+    color: #888888 !important;
+  }
+  [data-ogsc] a {
+    color: #66aaff !important;
+  }
+
+  /* ── Button ──────────────────────────────────────────────── */
+  /*
+   * .dm-btn   → outer <td> painted by Outlook (desktop)
+   * .dm-btn a → inner <a> painted by all other clients
+   * The descendant combinator (.dm-btn a) is intentional. Gmail Android/iOS
+   * strips the entire <style> block regardless, so the combinator is not
+   * the limiting factor there — Gmail falls back to its own dark theme.
+   * All other dark-mode-capable clients support descendant combinators.
+   */
+  @media (prefers-color-scheme: dark) {
+    .dm-btn {
+      background-color: #3399ff !important;
+    }
+    .dm-btn a {
+      background-color: #3399ff !important;
+      color: #ffffff !important;
+    }
+  }
+  [data-ogsc] .dm-btn {
+    background-color: #3399ff !important;
+  }
+  [data-ogsc] .dm-btn a {
+    background-color: #3399ff !important;
+    color: #ffffff !important;
+  }
+
+  /* ── Image swap (optional) ───────────────────────────────── */
+  /* Add css-class="light-img" or css-class="dark-img" to mj-image. */
+  .dark-img {
+    display: none !important;
+    mso-hide: all;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .light-img {
+      display: none !important;
+      mso-hide: all;
+    }
+    .dark-img {
+      display: block !important;
+      mso-hide: all;
+    }
+  }
+  [data-ogsc] .light-img {
+    display: none !important;
+    mso-hide: all;
+  }
+  [data-ogsc] .dark-img {
+    display: block !important;
+    mso-hide: all;
+  }
+    </style>
+    <!--
+  Declare that we handle dark mode ourselves.
+  "light dark" = support both; use "light only" to force light on all clients.
+  Apple Mail / iOS read "supported-color-schemes"; most others read "color-scheme".
+-->
+<meta name="color-scheme" content="dark" /> <meta
+  name="supported-color-schemes" content="dark" />
+  </head>
+  <body style="word-spacing:normal;background-color:#111111;">
+    
+    <div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">Welcome to our platform!</div>
+  
+    
+      <div
+         aria-label="Welcome" aria-roledescription="email" class="dm-body" style="background-color:#111111;" role="article" lang="und" dir="auto"
+      >
+        
+      
+      <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="dm-hero-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#0066cc" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    
+      
+      <div  class="dm-hero" style="background:#0066cc;background-color:#0066cc;margin:0px auto;max-width:600px;">
+        
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#0066cc;background-color:#0066cc;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style="direction:ltr;font-size:0px;padding:16px 24px;text-align:center;"
+              >
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:552px;" ><![endif]-->
+            
+      <div
+         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+      >
+        
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:20px;font-weight:700;line-height:1.5;text-align:left;color:#111111;"
+      >Acme Corp</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="dm-card-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    
+      
+      <div  class="dm-card" style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+        
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style="direction:ltr;font-size:0px;padding:32px 24px;text-align:center;"
+              >
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:552px;" ><![endif]-->
+            
+      <div
+         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+      >
+        
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
+      >
+        <tbody>
+          <!-- font-weight="700" (numeric) is more reliably parsed than "bold" in Outlook -->
+              <tr>
+                <td
+                   align="left" class="dm-heading" style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:24px;font-weight:700;line-height:1.5;text-align:left;color:#111111;"
+      >Welcome, {{ name }}!</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align="left" class="dm-text" style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:left;color:#333333;"
+      >Thanks for joining. Click below to get started.</div>
+    
+                </td>
+              </tr>
+            <!--
+          dm-btn targets the outer <td> (Outlook).
+          The CSS rule ".dm-btn a" handles the inner <a> for all other clients.
+          No second css-class needed on the element itself.
+        -->
+              <tr>
+                <td
+                   align="center" class="dm-btn" style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                >
+                  
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;"
+      >
+        <tbody>
+          <tr>
+            <td
+               align="center" bgcolor="#0066cc" role="presentation" style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:12px 24px;background:#0066cc;" valign="middle"
+            >
+              <a
+                 href="{{ctaUrl}}" style="display:inline-block;background:#0066cc;color:#ffffff;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:12px 24px;mso-padding-alt:0px;border-radius:3px;" target="_blank"
+              >
+                Get started
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="dm-footer-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#111111" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    
+      
+      <div  class="dm-footer" style="background:#111111;background-color:#111111;margin:0px auto;max-width:600px;">
+        
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#111111;background-color:#111111;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style="direction:ltr;font-size:0px;padding:16px 24px;text-align:center;"
+              >
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:552px;" ><![endif]-->
+            
+      <div
+         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+      >
+        
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align="center" class="dm-muted" style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:center;color:#999999;"
+      >© 2026 Acme Corp · 123 Main St, City, Country
+      <br />
+      <a css-class="dm-text" href="{{unsubscribeUrl}}">Unsubscribe</a></div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    
+      </div>
+    
+  </body>
+</html>
+  "
+`;

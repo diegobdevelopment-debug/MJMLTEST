@@ -1,9 +1,18 @@
-<mj-section background-color="#f4f4f4" padding="16px 24px" css-class="dm-footer">
+<mj-section
+  background-color="#111111"
+  padding="16px 24px"
+  css-class="dm-footer"
+>
   <mj-column>
-    <mj-text font-size="12px" color="#999999" align="center" css-class="dm-muted">
+    <mj-text
+      font-size="12px"
+      color="#999999"
+      align="center"
+      css-class="dm-muted"
+    >
       © 2026 Acme Corp · 123 Main St, City, Country
-      <br>
-      <a href="{{unsubscribeUrl}}">Unsubscribe</a>
+      <br />
+      <a css-class="dm-text" href="{{unsubscribeUrl}}">Unsubscribe</a>
     </mj-text>
   </mj-column>
 </mj-section>

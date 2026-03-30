@@ -1,0 +1,11 @@
+# All .mjml files are excluded:
+# - templates/ contain AMPscript inside mj-raw blocks; Prettier merges them
+# - partials/ are bare XML fragments with no root element (Prettier chokes)
+# Use .mjml.js for templates that benefit from JS tooling.
+**/*.mjml
+
+# Build output — never format compiled HTML
+output/
+
+# Dependencies
+node_modules/

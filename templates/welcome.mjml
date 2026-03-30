@@ -15,7 +15,7 @@
     <mj-include path="../partials/styles/dark-mode.mjml" />
   </mj-head>
 
-  <mj-body background-color="#f4f4f4" css-class="dm-body">
+  <mj-body background-color="#111111" css-class="dm-body">
     <mj-include path="../partials/components/header.mjml" />
 
     <mj-section

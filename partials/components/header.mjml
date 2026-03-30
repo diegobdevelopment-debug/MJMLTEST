@@ -1,6 +1,14 @@
-<mj-section background-color="#0066cc" padding="16px 24px" css-class="dm-hero">
+<mj-section
+  background-color="#0066cc"
+  padding="16px 24px"
+  css-class="dm-hero"
+>
   <mj-column>
-    <mj-text color="#ffffff" font-size="20px" font-weight="700">
+    <mj-text
+      color="#111111"
+      font-size="20px"
+      font-weight="700"
+    >
       Acme Corp
     </mj-text>
   </mj-column>

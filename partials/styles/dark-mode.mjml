@@ -4,8 +4,8 @@
   Apple Mail / iOS read "supported-color-schemes"; most others read "color-scheme".
 -->
 <mj-raw>
-  <meta name="color-scheme" content="light dark" />
-  <meta name="supported-color-schemes" content="light dark" />
+  <meta name="color-scheme" content="dark" /> <meta
+  name="supported-color-schemes" content="dark" />
 </mj-raw>
 
 <mj-style>
@@ -34,33 +34,69 @@
    * are dropped by Gmail Mobile Webmail, ProtonMail, SFR, and WEB.DE.
    */
   @media (prefers-color-scheme: dark) {
-    body     { background-color: #121212 !important; }
-    .dm-body { background-color: #121212 !important; }
+    body {
+      background-color: #121212 !important;
+    }
+    .dm-body {
+      background-color: #121212 !important;
+    }
   }
-  [data-ogsc] body     { background-color: #121212 !important; }
-  [data-ogsc] .dm-body { background-color: #121212 !important; }
+  [data-ogsc] body {
+    background-color: #121212 !important;
+  }
+  [data-ogsc] .dm-body {
+    background-color: #121212 !important;
+  }
 
   /* ── Section backgrounds ──────────────────────────────────── */
   @media (prefers-color-scheme: dark) {
-    .dm-card   { background-color: #1e1e1e !important; }
-    .dm-hero   { background-color: #004499 !important; }
-    .dm-footer { background-color: #1a1a1a !important; }
+    .dm-card {
+      background-color: #1e1e1e !important;
+    }
+    .dm-hero {
+      background-color: #004499 !important;
+    }
+    .dm-footer {
+      background-color: #1a1a1a !important;
+    }
   }
-  [data-ogsc] .dm-card   { background-color: #1e1e1e !important; }
-  [data-ogsc] .dm-hero   { background-color: #004499 !important; }
-  [data-ogsc] .dm-footer { background-color: #1a1a1a !important; }
+  [data-ogsc] .dm-card {
+    background-color: #1e1e1e !important;
+  }
+  [data-ogsc] .dm-hero {
+    background-color: #004499 !important;
+  }
+  [data-ogsc] .dm-footer {
+    background-color: #1a1a1a !important;
+  }
 
   /* ── Text ────────────────────────────────────────────────── */
   @media (prefers-color-scheme: dark) {
-    .dm-heading { color: #ffffff !important; }
-    .dm-text    { color: #cccccc !important; }
-    .dm-muted   { color: #888888 !important; }
-    a           { color: #66aaff !important; }
+    .dm-heading {
+      color: #ffffff !important;
+    }
+    .dm-text {
+      color: #cccccc !important;
+    }
+    .dm-muted {
+      color: #888888 !important;
+    }
+    a {
+      color: #66aaff !important;
+    }
   }
-  [data-ogsc] .dm-heading { color: #ffffff !important; }
-  [data-ogsc] .dm-text    { color: #cccccc !important; }
-  [data-ogsc] .dm-muted   { color: #888888 !important; }
-  [data-ogsc] a           { color: #66aaff !important; }
+  [data-ogsc] .dm-heading {
+    color: #ffffff !important;
+  }
+  [data-ogsc] .dm-text {
+    color: #cccccc !important;
+  }
+  [data-ogsc] .dm-muted {
+    color: #888888 !important;
+  }
+  [data-ogsc] a {
+    color: #66aaff !important;
+  }
 
   /* ── Button ──────────────────────────────────────────────── */
   /*
@@ -72,20 +108,45 @@
    * All other dark-mode-capable clients support descendant combinators.
    */
   @media (prefers-color-scheme: dark) {
-    .dm-btn   { background-color: #3399ff !important; }
-    .dm-btn a { background-color: #3399ff !important; color: #ffffff !important; }
+    .dm-btn {
+      background-color: #3399ff !important;
+    }
+    .dm-btn a {
+      background-color: #3399ff !important;
+      color: #ffffff !important;
+    }
   }
-  [data-ogsc] .dm-btn   { background-color: #3399ff !important; }
-  [data-ogsc] .dm-btn a { background-color: #3399ff !important; color: #ffffff !important; }
+  [data-ogsc] .dm-btn {
+    background-color: #3399ff !important;
+  }
+  [data-ogsc] .dm-btn a {
+    background-color: #3399ff !important;
+    color: #ffffff !important;
+  }
 
   /* ── Image swap (optional) ───────────────────────────────── */
   /* Add css-class="light-img" or css-class="dark-img" to mj-image. */
-  .dark-img { display: none !important; mso-hide: all; }
+  .dark-img {
+    display: none !important;
+    mso-hide: all;
+  }
 
   @media (prefers-color-scheme: dark) {
-    .light-img { display: none  !important; mso-hide: all; }
-    .dark-img  { display: block !important; mso-hide: all; }
+    .light-img {
+      display: none !important;
+      mso-hide: all;
+    }
+    .dark-img {
+      display: block !important;
+      mso-hide: all;
+    }
   }
-  [data-ogsc] .light-img { display: none  !important; mso-hide: all; }
-  [data-ogsc] .dark-img  { display: block !important; mso-hide: all; }
+  [data-ogsc] .light-img {
+    display: none !important;
+    mso-hide: all;
+  }
+  [data-ogsc] .dark-img {
+    display: block !important;
+    mso-hide: all;
+  }
 </mj-style>
