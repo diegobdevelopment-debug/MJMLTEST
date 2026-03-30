@@ -199,6 +199,37 @@ Templates that serve SFMC directly (like `audi-connect-nav`) skip these and use 
 | `dm-muted`   | `mj-text`    | Secondary / small text |
 | `dm-btn`     | `mj-button`  | Button background      |
 
-## CI / build pipeline
+## CI / CD pipeline
 
-Run `npm run build` as part of your build step. Since `output/` is gitignored, compiled HTML must be generated in CI rather than committed.
+Two GitHub Actions workflows are included.
+
+### CI — runs automatically on every push and PR to `main`
+
+| Step | Command |
+| --- | --- |
+| Format check | `npm run format:check` |
+| Build all templates | `npm run build` |
+| Validate output | `npm run validate` |
+| Snapshot tests | `npm test` |
+
+### Release — triggered manually from GitHub Actions UI
+
+Go to **Actions → Release → Run workflow**, enter a version (`v1.2.0`) and optional release notes. The workflow builds, validates, and packages all compiled HTML into a ZIP attached to a GitHub Release.
+
+The tag must be unique — the workflow fails immediately if the version already exists.
+
+## Scripts reference
+
+| Command | Description |
+| --- | --- |
+| `npm run build` | Compile all templates → `output/` |
+| `npm run build:template -- <name>` | Compile a single template |
+| `npm run watch` | Recompile on file changes |
+| `npm run validate` | Validate compiled output (structure + AMPScript checks) |
+| `npm test` | Run snapshot tests |
+| `npm run snap` | Update all snapshots |
+| `npm run snap:one -- <name>` | Update snapshot for one template |
+| `npm run format` | Format all files with Prettier |
+| `npm run format:check` | Check formatting without writing |
+| `npm run preview -- <name>` | Open compiled template in the browser |
+| `npm run send -- <name> <email> <json>` | Send a template via Mailtrap |
