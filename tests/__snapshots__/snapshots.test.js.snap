@@ -1,6 +1,420 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
-exports[`template snapshots audi-connect-nav — compiled HTML matches snapshot 1`] = `
+exports[`template snapshots dark-theme-example — compiled HTML matches snapshot 1`] = `
+"<!doctype html>
+<html lang="und" dir="auto" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <title>Welcome</title>
+    <!--[if !mso]><!-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+      #outlook a { padding:0; }
+      body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%; }
+      table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt; }
+      img { border:0;height:auto;line-height:100%; outline:none;text-decoration:none;-ms-interpolation-mode:bicubic; }
+      p { display:block;margin:13px 0; }
+    </style>
+    <!--[if mso]>
+    <noscript>
+    <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    </noscript>
+    <![endif]-->
+    <!--[if lte mso 11]>
+    <style type="text/css">
+      .mj-outlook-group-fix { width:100% !important; }
+    </style>
+    <![endif]-->
+    
+    
+    <style type="text/css">
+      @media only screen and (min-width:480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+      }
+    </style>
+    <style media="screen and (min-width:480px)">
+      .moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%; }
+    </style>
+    
+    
+  
+    
+     
+    <style type="text/css">
+/* * a:hover is stripped by Gmail, Outlook, and most webmail clients. * The rule is kept only for the small number of
+  clients that do support it * (Apple Mail, Thunderbird). It must never be the only way colour is applied. */ a:hover {
+  color: #001999ff; }
+/*
+   * Dark mode — three-pronged approach
+   * ─────────────────────────────────────────────────────────────────
+   * 1. @media (prefers-color-scheme: dark)
+   *    Covers: Apple Mail, iOS Mail, Gmail app (Android/iOS),
+   *            Samsung Mail, Thunderbird, Yahoo Mail (web)
+   *
+   * 2. [data-ogsc] prefix
+   *    Covers: Outlook.com and Office 365 web
+   *    (ignores media queries; injects its own attribute on <html>)
+   *
+   * MJML inlines all styles, so overrides must use !important.
+   * Apply these classes via css-class="" on mj-body / mj-section /
+   * mj-column / mj-text / mj-button as shown in the templates.
+   * ─────────────────────────────────────────────────────────────────
+   */
+
+  /* ── Page background ─────────────────────────────────────── */
+  /*
+   * body targets the <body> tag directly.
+   * .dm-body targets the MJML-generated outer <div> wrapper.
+   * Split into separate rules — grouping selectors (body, .dm-body)
+   * are dropped by Gmail Mobile Webmail, ProtonMail, SFR, and WEB.DE.
+   */
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #121212 !important;
+    }
+    .dm-body {
+      background-color: #121212 !important;
+    }
+  }
+  [data-ogsc] body {
+    background-color: #121212 !important;
+  }
+  [data-ogsc] .dm-body {
+    background-color: #121212 !important;
+  }
+
+  /* ── Section backgrounds ──────────────────────────────────── */
+  @media (prefers-color-scheme: dark) {
+    .dm-card {
+      background-color: #1e1e1e !important;
+    }
+    .dm-hero {
+      background-color: #004499 !important;
+    }
+    .dm-footer {
+      background-color: #1a1a1a !important;
+    }
+  }
+  [data-ogsc] .dm-card {
+    background-color: #1e1e1e !important;
+  }
+  [data-ogsc] .dm-hero {
+    background-color: #004499 !important;
+  }
+  [data-ogsc] .dm-footer {
+    background-color: #1a1a1a !important;
+  }
+
+  /* ── Text ────────────────────────────────────────────────── */
+  @media (prefers-color-scheme: dark) {
+    .dm-heading {
+      color: #ffffff !important;
+    }
+    .dm-text {
+      color: #cccccc !important;
+    }
+    .dm-muted {
+      color: #888888 !important;
+    }
+    a {
+      color: #66aaff !important;
+    }
+  }
+  [data-ogsc] .dm-heading {
+    color: #ffffff !important;
+  }
+  [data-ogsc] .dm-text {
+    color: #cccccc !important;
+  }
+  [data-ogsc] .dm-muted {
+    color: #888888 !important;
+  }
+  [data-ogsc] a {
+    color: #66aaff !important;
+  }
+
+  /* ── Button ──────────────────────────────────────────────── */
+  /*
+   * .dm-btn   → outer <td> painted by Outlook (desktop)
+   * .dm-btn a → inner <a> painted by all other clients
+   * The descendant combinator (.dm-btn a) is intentional. Gmail Android/iOS
+   * strips the entire <style> block regardless, so the combinator is not
+   * the limiting factor there — Gmail falls back to its own dark theme.
+   * All other dark-mode-capable clients support descendant combinators.
+   */
+  @media (prefers-color-scheme: dark) {
+    .dm-btn {
+      background-color: #3399ff !important;
+    }
+    .dm-btn a {
+      background-color: #3399ff !important;
+      color: #ffffff !important;
+    }
+  }
+  [data-ogsc] .dm-btn {
+    background-color: #3399ff !important;
+  }
+  [data-ogsc] .dm-btn a {
+    background-color: #3399ff !important;
+    color: #ffffff !important;
+  }
+
+  /* ── Image swap (optional) ───────────────────────────────── */
+  /* Add css-class="light-img" or css-class="dark-img" to mj-image. */
+  .dark-img {
+    display: none !important;
+    mso-hide: all;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .light-img {
+      display: none !important;
+      mso-hide: all;
+    }
+    .dark-img {
+      display: block !important;
+      mso-hide: all;
+    }
+  }
+  [data-ogsc] .light-img {
+    display: none !important;
+    mso-hide: all;
+  }
+  [data-ogsc] .dark-img {
+    display: block !important;
+    mso-hide: all;
+  }
+    </style>
+    <!--
+  Declare that we handle dark mode ourselves.
+  "light dark" = support both; use "light only" to force light on all clients.
+  Apple Mail / iOS read "supported-color-schemes"; most others read "color-scheme".
+-->
+<meta name="color-scheme" content="dark" /> <meta
+  name="supported-color-schemes" content="dark" />
+  </head>
+  <body style="word-spacing:normal;background-color:#111111;">
+    
+    <div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">Welcome to our platform!</div>
+  
+    
+      <div
+         aria-label="Welcome" aria-roledescription="email" class="dm-body" style="background-color:#111111;" role="article" lang="und" dir="auto"
+      >
+        
+      
+      <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="dm-hero-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#0066cc" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    
+      
+      <div  class="dm-hero" style="background:#0066cc;background-color:#0066cc;margin:0px auto;max-width:600px;">
+        
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#0066cc;background-color:#0066cc;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style="direction:ltr;font-size:0px;padding:16px 24px;text-align:center;"
+              >
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:552px;" ><![endif]-->
+            
+      <div
+         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+      >
+        
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:20px;font-weight:700;line-height:1.5;text-align:left;color:#111111;"
+      >Acme Corp</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="dm-card-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    
+      
+      <div  class="dm-card" style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+        
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style="direction:ltr;font-size:0px;padding:32px 24px;text-align:center;"
+              >
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:552px;" ><![endif]-->
+            
+      <div
+         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+      >
+        
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
+      >
+        <tbody>
+          <!-- font-weight="700" (numeric) is more reliably parsed than "bold" in Outlook -->
+              <tr>
+                <td
+                   align="left" class="dm-heading" style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:24px;font-weight:700;line-height:1.5;text-align:left;color:#111111;"
+      >Welcome, {{ name }}!</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align="left" class="dm-text" style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:left;color:#333333;"
+      >Thanks for joining. Click below to get started.</div>
+    
+                </td>
+              </tr>
+            <!--
+          dm-btn targets the outer <td> (Outlook).
+          The CSS rule ".dm-btn a" handles the inner <a> for all other clients.
+          No second css-class needed on the element itself.
+        -->
+              <tr>
+                <td
+                   align="center" class="dm-btn" style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                >
+                  
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;"
+      >
+        <tbody>
+          <tr>
+            <td
+               align="center" bgcolor="#0066cc" role="presentation" style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:12px 24px;background:#0066cc;" valign="middle"
+            >
+              <a
+                 href="{{ctaUrl}}" style="display:inline-block;background:#0066cc;color:#ffffff;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:12px 24px;mso-padding-alt:0px;border-radius:3px;" target="_blank"
+              >
+                Get started
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="dm-footer-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#111111" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    
+      
+      <div  class="dm-footer" style="background:#111111;background-color:#111111;margin:0px auto;max-width:600px;">
+        
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#111111;background-color:#111111;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style="direction:ltr;font-size:0px;padding:16px 24px;text-align:center;"
+              >
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:552px;" ><![endif]-->
+            
+      <div
+         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+      >
+        
+      <table
+         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align="center" class="dm-muted" style="font-size:0px;padding:10px 25px;word-break:break-word;"
+                >
+                  
+      <div
+         style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:center;color:#999999;"
+      >© 2026 Acme Corp · 123 Main St, City, Country
+      <br />
+      <a css-class="dm-text" href="{{unsubscribeUrl}}">Unsubscribe</a></div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    
+      </div>
+    
+  </body>
+</html>
+  "
+`;
+
+exports[`template snapshots example-mjml-js-template — compiled HTML matches snapshot 1`] = `
 "<!doctype html>
 <html lang="und" dir="auto" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
   <head>
@@ -1138,764 +1552,6 @@ body, p, h1, h2, h3, h4 { margin: 0; padding: 0; }
     <!-- ═══ SFMC tracking ═══════════════════════════════════════════════════ --><!--[if !mso]><!--><div style="display:none;"><a style="color:#000000;" href="%%profile_center_url%%">Update Profile</a><span style="color:#000000;">This email was sent by:
 <strong>%%Member_Busname%%</strong> %%Member_Addr%% %%Member_City%%, %%Member_State%%, %%Member_PostalCode%%, %%Member_Country%%
 </span><custom name="opencounter" type="tracking"/></div><!--<![endif]-->
-      </div>
-    
-  </body>
-</html>
-  "
-`;
-
-exports[`template snapshots example-amp — compiled HTML matches snapshot 1`] = `
-"<!doctype html>
-<html lang="und" dir="auto" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
-  <head>
-    <title>Example</title>
-    <!--[if !mso]><!-->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--<![endif]-->
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style type="text/css">
-      #outlook a { padding:0; }
-      body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%; }
-      table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt; }
-      img { border:0;height:auto;line-height:100%; outline:none;text-decoration:none;-ms-interpolation-mode:bicubic; }
-      p { display:block;margin:13px 0; }
-    </style>
-    <!--[if mso]>
-    <noscript>
-    <xml>
-    <o:OfficeDocumentSettings>
-      <o:AllowPNG/>
-      <o:PixelsPerInch>96</o:PixelsPerInch>
-    </o:OfficeDocumentSettings>
-    </xml>
-    </noscript>
-    <![endif]-->
-    <!--[if lte mso 11]>
-    <style type="text/css">
-      .mj-outlook-group-fix { width:100% !important; }
-    </style>
-    <![endif]-->
-    
-    
-    <style type="text/css">
-      @media only screen and (min-width:480px) {
-        .mj-column-per-100 { width:100% !important; max-width: 100%; }
-      }
-    </style>
-    <style media="screen and (min-width:480px)">
-      .moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%; }
-    </style>
-    
-    
-  
-    
-    
-    <!--
-      amp.v() in <mj-preview>:
-      Outputs the preheader variable in the email subject preview line.
-      Produces: <mj-preview>%%=v(@preheader)=%%</mj-preview>
-    -->
-  </head>
-  <body style="word-spacing:normal;">
-    
-    <div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">%%=v(@preheader)=%%</div>
-  
-    
-      <div
-         aria-label="Example" aria-roledescription="email" style="" role="article" lang="und" dir="auto"
-      >
-        <!--
-    ════════════════════════════════════════════════════════════════════════
-     DECLARATIONS BLOCK
-     • Always the first element inside <mj-body>
-     • Wraps all Set statements in a single %%[ ... ]%% block
-     • The div+comment trick hides the block in browser preview
-     • Strip the outer %%[ ]%% delimiters with .replace() to merge
-       multiple block builders into one wrapper
-    ════════════════════════════════════════════════════════════════════════
-    -->%%[/* Modify to view AMPScript - Email Specific
-<div style="display:none">*/
-Set @email = [Email]
-  Set @FirstName = [FirstName]
-  Set @LastName = [LastName]
-  Set @Campaign = "EXAMPLE_CAMPAIGN"
-  Set @SendDate = Now()
-  Set @preheader = "Your default preheader text."
-If @FirstName != "" then
-    Set @greeting = Propercase(Trim(@FirstName))
-  Else
-    Set @greeting = "Valued Customer"
-  EndIf
-Set @trackingCampaign = "CRM_EXAMPLE"
-  Set @deploymentDate = "20240101"
-  Set @touchNum = "1"
-  Set @csrefTagBase = Concat(@trackingCampaign, '_', @deploymentDate, '_', @touchNum, '_')
-/*</div>*/
-]%%<!--
-    ════════════════════════════════════════════════════════════════════════
-     PREHEADER SPACER
-     • amp.preheaderBlock('preheader') — use the var name you declared above
-     • Produces a hidden div with the preheader text + zero-width spacers
-     • Required in every email
-    ════════════════════════════════════════════════════════════════════════
-    --><div style="display:none !important; visibility:hidden; mso-hide:all; max-height:0px; max-width:0px; opacity:0; overflow:hidden;">%%=v(@preheader)=%%</div>
-<div style="display:none">&#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847;</div><!--
-    ════════════════════════════════════════════════════════════════════════
-     CONTENT BLOCK — header
-     • amp.contentBlock('Key') inside <mj-raw>
-     • The key is the content block's External Key in SFMC
-     • Never use inside <mj-text> — this is server-side content
-    ════════════════════════════════════════════════════════════════════════
-    -->%%=ContentBlockByKey("Brand_Global_Header_2024")=%%<!--
-    ════════════════════════════════════════════════════════════════════════
-     INLINE VARIABLE OUTPUT  —  amp.v()
-     • Use directly inside <mj-text>, href, alt, etc.
-     • amp.v('greeting')  →  %%=v(@greeting)=%%
-    ════════════════════════════════════════════════════════════════════════
-    -->
-      
-      <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    
-      
-      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
-        
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
-        >
-          <tbody>
-            <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:0;text-align:center;"
-              >
-                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
-            
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
-        
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
-      >
-        <tbody>
-          <tr>
-            <td  style="vertical-align:top;padding:0 30px;">
-              
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align="left" style="font-size:0px;padding:40px 0 20px 0;word-break:break-word;"
-                >
-                  
-      <div
-         style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:20px;font-weight:bold;line-height:22px;text-align:left;color:#000000;"
-      >%%=v(@greeting)=%%,</div>
-    
-                </td>
-              </tr>
-            <!--
-        ════════════════════════════════════════════════════════════════════
-         INLINE CONDITIONAL  —  amp.ifInline()
-         • Use when two short output strings depend on a condition,
-           within the same paragraph or sentence.
-         • amp.ifInline('@autoRenewal == "ACTIVE"', 'renews', 'expires')
-           →  %%[If @autoRenewal == "ACTIVE" then]%%renews%%[Else]%%expires%%[EndIf]%%
-         • DO NOT use for showing/hiding full sections → use amp.ifSection()
-        ════════════════════════════════════════════════════════════════════
-        -->
-              <tr>
-                <td
-                   align="left" style="font-size:0px;padding:0 0 20px 0;word-break:break-word;"
-                >
-                  
-      <div
-         style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;text-align:left;color:#000000;"
-      >Your subscription %%[If @autoRenewal == "ACTIVE" then]%%renews%%[Else]%%expires%%[EndIf]%% on
-          %%=FormatDate(@expiryDate, "mm")=%%/%%=FormatDate(@expiryDate, "dd")=%%/%%=FormatDate(@expiryDate, "yyyy")=%%.</div>
-    
-                </td>
-              </tr>
-            <!--
-        ════════════════════════════════════════════════════════════════════
-         FORMAT DATE  —  amp.formatDate()
-         • amp.formatDate('varName', 'format')
-           →  %%=FormatDate(@varName, "format")=%%
-         • Common formats: "mm" "dd" "yyyy" "mmmm d, yyyy"
-         • Shown above combined to produce: 12/31/2025
-        ════════════════════════════════════════════════════════════════════
-        -->
-              <tr>
-                <td
-                   align="left" style="font-size:0px;padding:0 0 40px 0;word-break:break-word;"
-                >
-                  
-      <div
-         style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;text-align:left;color:#000000;"
-      >Thank you for being a customer.</div>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-      </div>
-    
-          <!--[if mso | IE]></td></tr></table><![endif]-->
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        
-      </div>
-    
-      
-      <!--[if mso | IE]></td></tr></table><![endif]-->
-    
-    <!--
-    ════════════════════════════════════════════════════════════════════════
-     CONDITIONAL SECTION  —  amp.ifSection()
-     • Use when an entire <mj-section> should only appear conditionally.
-     • Automatically wraps the MJML with <mj-raw>%%[If … then]%%</mj-raw>
-       and <mj-raw>%%[EndIf]%%</mj-raw> — tags are always balanced.
-     • With else:  amp.ifSection(cond, ifMarkup, elseMarkup)
-     • Nested:     amp.ifSection(outer, amp.ifSection(inner, …) + otherMarkup)
-     • DO NOT use for toggling rows inside a table → use a single <mj-raw>
-       containing the whole table (see audi-connect-nav.mjml.js)
-    ════════════════════════════════════════════════════════════════════════
-    -->%%[If @showPromo == "true" then]%%
-      
-      <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#f5f5f5" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    
-      
-      <div  style="background:#f5f5f5;background-color:#f5f5f5;margin:0px auto;max-width:600px;">
-        
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#f5f5f5;background-color:#f5f5f5;width:100%;"
-        >
-          <tbody>
-            <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 30px;text-align:center;"
-              >
-                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:540px;" ><![endif]-->
-            
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
-        
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                >
-                  
-      <div
-         style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:16px;font-weight:bold;line-height:22px;text-align:left;color:#000000;"
-      >Special offer just for you!</div>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-      </div>
-    
-          <!--[if mso | IE]></td></tr></table><![endif]-->
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        
-      </div>
-    
-      
-      <!--[if mso | IE]></td></tr></table><![endif]-->
-    
-    %%[EndIf]%%<!--
-    ════════════════════════════════════════════════════════════════════════
-     CONTENT BLOCK — footer
-    ════════════════════════════════════════════════════════════════════════
-    -->
-      
-      <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#000000" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    
-      
-      <div  style="background:#000000;background-color:#000000;margin:0px auto;max-width:600px;">
-        
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#000000;background-color:#000000;width:100%;"
-        >
-          <tbody>
-            <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:0;text-align:center;"
-              >
-                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
-            
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
-        
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
-        <tbody>
-          %%=ContentBlockByKey("Brand_Footer_Static_2024")=%%
-        </tbody>
-      </table>
-    
-      </div>
-    
-          <!--[if mso | IE]></td></tr></table><![endif]-->
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        
-      </div>
-    
-      
-      <!--[if mso | IE]></td></tr></table><![endif]-->
-    
-    <!--
-    ════════════════════════════════════════════════════════════════════════
-     SFMC TRACKING BLOCK
-     • Always the last element inside <mj-body>
-     • Required by SFMC — omitting it causes deployment errors
-    ════════════════════════════════════════════════════════════════════════
-    --><!--[if !mso]><!--><div style="display:none;"><a style="color:#000000;" href="%%profile_center_url%%">Update Profile</a><span style="color:#000000;">This email was sent by:
-<strong>%%Member_Busname%%</strong> %%Member_Addr%% %%Member_City%%, %%Member_State%%, %%Member_PostalCode%%, %%Member_Country%%
-</span><custom name="opencounter" type="tracking"/></div><!--<![endif]-->
-      </div>
-    
-  </body>
-</html>
-  "
-`;
-
-exports[`template snapshots welcome — compiled HTML matches snapshot 1`] = `
-"<!doctype html>
-<html lang="und" dir="auto" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
-  <head>
-    <title>Welcome</title>
-    <!--[if !mso]><!-->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--<![endif]-->
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style type="text/css">
-      #outlook a { padding:0; }
-      body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%; }
-      table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt; }
-      img { border:0;height:auto;line-height:100%; outline:none;text-decoration:none;-ms-interpolation-mode:bicubic; }
-      p { display:block;margin:13px 0; }
-    </style>
-    <!--[if mso]>
-    <noscript>
-    <xml>
-    <o:OfficeDocumentSettings>
-      <o:AllowPNG/>
-      <o:PixelsPerInch>96</o:PixelsPerInch>
-    </o:OfficeDocumentSettings>
-    </xml>
-    </noscript>
-    <![endif]-->
-    <!--[if lte mso 11]>
-    <style type="text/css">
-      .mj-outlook-group-fix { width:100% !important; }
-    </style>
-    <![endif]-->
-    
-    
-    <style type="text/css">
-      @media only screen and (min-width:480px) {
-        .mj-column-per-100 { width:100% !important; max-width: 100%; }
-      }
-    </style>
-    <style media="screen and (min-width:480px)">
-      .moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%; }
-    </style>
-    
-    
-  
-    
-     
-    <style type="text/css">
-/* * a:hover is stripped by Gmail, Outlook, and most webmail clients. * The rule is kept only for the small number of
-  clients that do support it * (Apple Mail, Thunderbird). It must never be the only way colour is applied. */ a:hover {
-  color: #001999ff; }
-/*
-   * Dark mode — three-pronged approach
-   * ─────────────────────────────────────────────────────────────────
-   * 1. @media (prefers-color-scheme: dark)
-   *    Covers: Apple Mail, iOS Mail, Gmail app (Android/iOS),
-   *            Samsung Mail, Thunderbird, Yahoo Mail (web)
-   *
-   * 2. [data-ogsc] prefix
-   *    Covers: Outlook.com and Office 365 web
-   *    (ignores media queries; injects its own attribute on <html>)
-   *
-   * MJML inlines all styles, so overrides must use !important.
-   * Apply these classes via css-class="" on mj-body / mj-section /
-   * mj-column / mj-text / mj-button as shown in the templates.
-   * ─────────────────────────────────────────────────────────────────
-   */
-
-  /* ── Page background ─────────────────────────────────────── */
-  /*
-   * body targets the <body> tag directly.
-   * .dm-body targets the MJML-generated outer <div> wrapper.
-   * Split into separate rules — grouping selectors (body, .dm-body)
-   * are dropped by Gmail Mobile Webmail, ProtonMail, SFR, and WEB.DE.
-   */
-  @media (prefers-color-scheme: dark) {
-    body {
-      background-color: #121212 !important;
-    }
-    .dm-body {
-      background-color: #121212 !important;
-    }
-  }
-  [data-ogsc] body {
-    background-color: #121212 !important;
-  }
-  [data-ogsc] .dm-body {
-    background-color: #121212 !important;
-  }
-
-  /* ── Section backgrounds ──────────────────────────────────── */
-  @media (prefers-color-scheme: dark) {
-    .dm-card {
-      background-color: #1e1e1e !important;
-    }
-    .dm-hero {
-      background-color: #004499 !important;
-    }
-    .dm-footer {
-      background-color: #1a1a1a !important;
-    }
-  }
-  [data-ogsc] .dm-card {
-    background-color: #1e1e1e !important;
-  }
-  [data-ogsc] .dm-hero {
-    background-color: #004499 !important;
-  }
-  [data-ogsc] .dm-footer {
-    background-color: #1a1a1a !important;
-  }
-
-  /* ── Text ────────────────────────────────────────────────── */
-  @media (prefers-color-scheme: dark) {
-    .dm-heading {
-      color: #ffffff !important;
-    }
-    .dm-text {
-      color: #cccccc !important;
-    }
-    .dm-muted {
-      color: #888888 !important;
-    }
-    a {
-      color: #66aaff !important;
-    }
-  }
-  [data-ogsc] .dm-heading {
-    color: #ffffff !important;
-  }
-  [data-ogsc] .dm-text {
-    color: #cccccc !important;
-  }
-  [data-ogsc] .dm-muted {
-    color: #888888 !important;
-  }
-  [data-ogsc] a {
-    color: #66aaff !important;
-  }
-
-  /* ── Button ──────────────────────────────────────────────── */
-  /*
-   * .dm-btn   → outer <td> painted by Outlook (desktop)
-   * .dm-btn a → inner <a> painted by all other clients
-   * The descendant combinator (.dm-btn a) is intentional. Gmail Android/iOS
-   * strips the entire <style> block regardless, so the combinator is not
-   * the limiting factor there — Gmail falls back to its own dark theme.
-   * All other dark-mode-capable clients support descendant combinators.
-   */
-  @media (prefers-color-scheme: dark) {
-    .dm-btn {
-      background-color: #3399ff !important;
-    }
-    .dm-btn a {
-      background-color: #3399ff !important;
-      color: #ffffff !important;
-    }
-  }
-  [data-ogsc] .dm-btn {
-    background-color: #3399ff !important;
-  }
-  [data-ogsc] .dm-btn a {
-    background-color: #3399ff !important;
-    color: #ffffff !important;
-  }
-
-  /* ── Image swap (optional) ───────────────────────────────── */
-  /* Add css-class="light-img" or css-class="dark-img" to mj-image. */
-  .dark-img {
-    display: none !important;
-    mso-hide: all;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    .light-img {
-      display: none !important;
-      mso-hide: all;
-    }
-    .dark-img {
-      display: block !important;
-      mso-hide: all;
-    }
-  }
-  [data-ogsc] .light-img {
-    display: none !important;
-    mso-hide: all;
-  }
-  [data-ogsc] .dark-img {
-    display: block !important;
-    mso-hide: all;
-  }
-    </style>
-    <!--
-  Declare that we handle dark mode ourselves.
-  "light dark" = support both; use "light only" to force light on all clients.
-  Apple Mail / iOS read "supported-color-schemes"; most others read "color-scheme".
--->
-<meta name="color-scheme" content="dark" /> <meta
-  name="supported-color-schemes" content="dark" />
-  </head>
-  <body style="word-spacing:normal;background-color:#111111;">
-    
-    <div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">Welcome to our platform!</div>
-  
-    
-      <div
-         aria-label="Welcome" aria-roledescription="email" class="dm-body" style="background-color:#111111;" role="article" lang="und" dir="auto"
-      >
-        
-      
-      <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="dm-hero-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#0066cc" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    
-      
-      <div  class="dm-hero" style="background:#0066cc;background-color:#0066cc;margin:0px auto;max-width:600px;">
-        
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#0066cc;background-color:#0066cc;width:100%;"
-        >
-          <tbody>
-            <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:16px 24px;text-align:center;"
-              >
-                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:552px;" ><![endif]-->
-            
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
-        
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                >
-                  
-      <div
-         style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:20px;font-weight:700;line-height:1.5;text-align:left;color:#111111;"
-      >Acme Corp</div>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-      </div>
-    
-          <!--[if mso | IE]></td></tr></table><![endif]-->
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        
-      </div>
-    
-      
-      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="dm-card-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    
-      
-      <div  class="dm-card" style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
-        
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
-        >
-          <tbody>
-            <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:32px 24px;text-align:center;"
-              >
-                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:552px;" ><![endif]-->
-            
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
-        
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
-        <tbody>
-          <!-- font-weight="700" (numeric) is more reliably parsed than "bold" in Outlook -->
-              <tr>
-                <td
-                   align="left" class="dm-heading" style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                >
-                  
-      <div
-         style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:24px;font-weight:700;line-height:1.5;text-align:left;color:#111111;"
-      >Welcome, {{ name }}!</div>
-    
-                </td>
-              </tr>
-            
-              <tr>
-                <td
-                   align="left" class="dm-text" style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                >
-                  
-      <div
-         style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:left;color:#333333;"
-      >Thanks for joining. Click below to get started.</div>
-    
-                </td>
-              </tr>
-            <!--
-          dm-btn targets the outer <td> (Outlook).
-          The CSS rule ".dm-btn a" handles the inner <a> for all other clients.
-          No second css-class needed on the element itself.
-        -->
-              <tr>
-                <td
-                   align="center" class="dm-btn" style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                >
-                  
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;"
-      >
-        <tbody>
-          <tr>
-            <td
-               align="center" bgcolor="#0066cc" role="presentation" style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:12px 24px;background:#0066cc;" valign="middle"
-            >
-              <a
-                 href="{{ctaUrl}}" style="display:inline-block;background:#0066cc;color:#ffffff;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:12px 24px;mso-padding-alt:0px;border-radius:3px;" target="_blank"
-              >
-                Get started
-              </a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-      </div>
-    
-          <!--[if mso | IE]></td></tr></table><![endif]-->
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        
-      </div>
-    
-      
-      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="dm-footer-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#111111" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    
-      
-      <div  class="dm-footer" style="background:#111111;background-color:#111111;margin:0px auto;max-width:600px;">
-        
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#111111;background-color:#111111;width:100%;"
-        >
-          <tbody>
-            <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:16px 24px;text-align:center;"
-              >
-                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:552px;" ><![endif]-->
-            
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
-        
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align="center" class="dm-muted" style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                >
-                  
-      <div
-         style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:center;color:#999999;"
-      >© 2026 Acme Corp · 123 Main St, City, Country
-      <br />
-      <a css-class="dm-text" href="{{unsubscribeUrl}}">Unsubscribe</a></div>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-      </div>
-    
-          <!--[if mso | IE]></td></tr></table><![endif]-->
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        
-      </div>
-    
-      
-      <!--[if mso | IE]></td></tr></table><![endif]-->
-    
-    
       </div>
     
   </body>
